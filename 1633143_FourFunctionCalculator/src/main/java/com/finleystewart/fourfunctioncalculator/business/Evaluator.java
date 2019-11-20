@@ -4,12 +4,16 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Queue;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
  * @author 1633143
  */
 public class Evaluator {
+    
+    private final static Logger LOG = LoggerFactory.getLogger(Evaluator.class);
     
     Deque<String> postFixStack = new ArrayDeque<>();
 
@@ -28,9 +32,26 @@ public class Evaluator {
         
         postFixStack.clear();
         postFixQueue.clear();
+        String current = "";
+        String top = "";
         
         while (!input.isEmpty()) {
-            System.out.println("queue poll: " + input.poll());
+            
+            current =  input.poll();
+            
+            if(isOperator(current)) {
+                
+                top = postFixStack.peek();
+                
+                while(!(compareOperators(current, top) == 1) && !postFixStack.isEmpty()) {
+                    postFixQueue.offer(postFixStack.pop());
+                    top = postFixStack.peek();
+                }
+                postFixStack.push(current);
+                
+            } else {
+                postFixQueue.offer(current);
+            }
         }
         
         return null;
