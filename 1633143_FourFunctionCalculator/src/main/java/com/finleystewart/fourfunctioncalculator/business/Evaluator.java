@@ -3,6 +3,7 @@ package com.finleystewart.fourfunctioncalculator.business;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
+import java.util.Iterator;
 import java.util.Queue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,9 +42,11 @@ public class Evaluator {
             
             if(isOperator(current)) {
                 
-                top = postFixStack.peek();
+                if(!postFixStack.isEmpty()) {
+                    top = postFixStack.peek();
+                }
                 
-                while(!(compareOperators(current, top) == 1) && !postFixStack.isEmpty()) {
+                while(!postFixStack.isEmpty() && !(compareOperators(current, top) == 1)) {
                     postFixQueue.offer(postFixStack.pop());
                     top = postFixStack.peek();
                 }
@@ -54,7 +57,9 @@ public class Evaluator {
             }
         }
         
-        return null;
+        printQueue(postFixQueue);
+        
+        return postFixQueue;
     }
     
     private int compareOperators(String x, String y) {
@@ -88,6 +93,13 @@ public class Evaluator {
             return true;
         }
         return false;
+    }
+    
+    private void printQueue(Queue<String> queue) {
+        Iterator i = queue.iterator();
+        while(i.hasNext()) {
+            LOG.info(i.next().toString());
+        }
     }
     
 }
