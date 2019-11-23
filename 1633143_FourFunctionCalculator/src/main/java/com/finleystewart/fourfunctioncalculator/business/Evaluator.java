@@ -1,5 +1,6 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
+import static com.finleystewart.fourfunctioncalculator.business.Constants.operators;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
@@ -16,45 +17,32 @@ public class Evaluator {
     
     private final static Logger LOG = LoggerFactory.getLogger(Evaluator.class);
     
-    Deque<String> postFixStack = new ArrayDeque<>();
-
-    Queue<String> postFixQueue = new ArrayDeque<>();
-    
-    ArrayList<String> operators = new ArrayList<>();
-    
-    public Evaluator() {
-        operators.add("*");
-        operators.add("/");
-        operators.add("+");
-        operators.add("-");
-    }
+    private Deque<String> stack = new ArrayDeque<>();
+    private Queue<String> postFixQueue = new ArrayDeque<>();
     
     public Queue<String> toPostFix(Queue<String> input) {
         
-        postFixStack.clear();
+        stack.clear();
         postFixQueue.clear();
         String current = "";
         String top = "";
         
         while (!input.isEmpty()) {
-            
-            current =  input.poll();
-            
-            if(isOperator(current)) {
-                
-                if(!postFixStack.isEmpty()) {
-                    top = postFixStack.peek();
+            // Send digits straight to the queue
+            if(isDigit(input.peek())) {
+                postFixQueue.offer(input.poll());
+            } else if (isOperator(input.peek())) {
+                // If operator is not greater than the one below it, send that lower one to the queue
+                while(compareOperators(input.peek(), stack.peek()) != 1) {
+                    postFixQueue.offer(stack.pop());
                 }
-                
-                while(!postFixStack.isEmpty() && !(compareOperators(current, top) == 1)) {
-                    postFixQueue.offer(postFixStack.pop());
-                    top = postFixStack.peek();
-                }
-                postFixStack.push(current);
-                
-            } else {
-                postFixQueue.offer(current);
+                stack.push(input.poll());
             }
+        }
+        
+        // Send operators remaining in the stack to the queue
+        while(!stack.isEmpty()) {
+            postFixQueue.offer(stack.pop());
         }
         
         printQueue(postFixQueue);
@@ -75,7 +63,16 @@ public class Evaluator {
     }
     
     private boolean isOperator(String op) {
-        if(operators.contains(op)) {
+        for(int i=0;i<operators.length;i++) {
+            if(op.length() == 1 && operators[i].equals(op)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    private boolean isDigit(String op) {
+        if(op.length() == 1 && Character.isDigit(op.toCharArray()[0])) {
             return true;
         }
         return false;
