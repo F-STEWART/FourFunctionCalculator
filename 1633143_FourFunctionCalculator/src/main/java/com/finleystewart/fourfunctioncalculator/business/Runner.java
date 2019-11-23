@@ -14,13 +14,25 @@ import java.util.Queue;
  */
 public class Runner {
     
-    public static void main(String[] args) {
+    public void run() {
         Evaluator test = new Evaluator();
         Queue<String> input = new ArrayDeque<>();
         
-        input = test.toPostFix(input);
+        input.offer("(");
+        input.offer("(");
+        input.offer("1");
+        input.offer("+");
+        input.offer("2");
+        input.offer(")");
+        input.offer("*");
+        input.offer("3");
+        input.offer("-");
+        input.offer("4");
+        input.offer(")");
+        input.offer("*");
+        input.offer("5");
         
-        test.
+        test.toPostFix(input);
     }
     
 }

@@ -1,0 +1,93 @@
+[INFO ] 2019-11-23 17:31:49.392 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-23 17:31:49.396 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-23 17:31:49.396 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 6
+[INFO ] 2019-11-23 17:31:49.396 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-23 17:31:49.396 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-23 17:31:49.396 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - /
+[INFO ] 2019-11-23 17:31:49.397 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-23 18:12:33.436 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 6
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - /
+[INFO ] 2019-11-23 18:12:33.456 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[DEBUG] 2019-11-23 18:14:32.075 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:14:32.078 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:14:32.079 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:14:32.079 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:14:32.079 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: null
+[DEBUG] 2019-11-23 18:17:17.113 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[DEBUG] 2019-11-23 18:17:17.117 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:17:17.118 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[DEBUG] 2019-11-23 18:17:17.118 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:17:17.119 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:17:17.119 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:17:17.119 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:17:17.119 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: +
+[DEBUG] 2019-11-23 18:17:17.119 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - isHighPriority: null
+[DEBUG] 2019-11-23 18:18:48.402 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[DEBUG] 2019-11-23 18:18:48.407 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:18:48.407 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[DEBUG] 2019-11-23 18:18:48.407 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:18:48.434 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to +
+[DEBUG] 2019-11-23 18:18:48.434 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to null
+[DEBUG] 2019-11-23 18:20:34.865 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[DEBUG] 2019-11-23 18:20:34.871 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:20:34.879 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to null
+[DEBUG] 2019-11-23 18:21:20.029 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[DEBUG] 2019-11-23 18:21:20.032 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:21:20.032 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[DEBUG] 2019-11-23 18:21:20.032 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:21:20.035 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to +
+[DEBUG] 2019-11-23 18:21:20.035 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[DEBUG] 2019-11-23 18:21:20.035 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[DEBUG] 2019-11-23 18:21:20.035 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to +
+[DEBUG] 2019-11-23 18:21:20.035 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-23 18:21:20.036 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-23 18:33:15.196 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-23 18:33:15.214 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-23 18:33:15.217 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare + to (
+[INFO ] 2019-11-23 18:34:37.054 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-23 18:34:37.056 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-23 18:34:37.057 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-23 18:35:54.417 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-23 18:35:54.421 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-23 18:35:54.421 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-23 18:37:18.218 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-23 18:37:18.222 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-23 18:37:18.222 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-23 18:37:18.223 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-23 18:37:18.223 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-23 18:37:18.223 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-23 18:37:18.223 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-23 18:37:18.223 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-23 18:38:40.142 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-23 18:38:40.145 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-23 18:38:40.146 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-23 18:38:40.146 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-23 18:38:40.146 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-23 18:38:40.146 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-23 18:38:40.147 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-23 18:38:40.147 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-23 18:38:40.147 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-23 18:38:40.151 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-23 18:38:40.152 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *

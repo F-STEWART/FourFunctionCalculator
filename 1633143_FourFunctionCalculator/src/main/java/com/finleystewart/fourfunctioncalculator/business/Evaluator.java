@@ -24,19 +24,34 @@ public class Evaluator {
         
         stack.clear();
         postFixQueue.clear();
-        String current = "";
-        String top = "";
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
             if(isDigit(input.peek())) {
+                LOG.info("Found digit: " + input.peek());
                 postFixQueue.offer(input.poll());
             } else if (isOperator(input.peek())) {
+                LOG.info("Found operator: " + input.peek());
                 // If operator is not greater than the one below it, send that lower one to the queue
-                while(compareOperators(input.peek(), stack.peek()) != 1) {
+                while(!stack.isEmpty() &&  !stack.peek().equals("(") && compareOperators(input.peek(), stack.peek()) != 1) {
                     postFixQueue.offer(stack.pop());
                 }
                 stack.push(input.poll());
+            } else if(input.peek().equals("(")) {
+                LOG.info("Found: (");
+                // Push ( to stack
+                stack.push(input.poll());
+            } else if(input.peek().equals(")")) {
+                LOG.info("Found: )");
+                // I assume here that finding a ) means there is a ( somewhere earlier. This will be checked in the validator.
+                // Pop stack until the last (
+                while(!stack.isEmpty() && !stack.peek().equals("(")) {
+                    postFixQueue.offer(stack.pop());
+                }
+                // Remove ( so it is not rused
+                stack.pop();
+                // Remove ) from input queue
+                input.poll();
             }
         }
         
@@ -50,7 +65,12 @@ public class Evaluator {
         return postFixQueue;
     }
     
+    public double evaluate(Queue<String> input) {
+        return 0;
+    }
+    
     private int compareOperators(String x, String y) {
+        LOG.info("Compare " + x + " to " + y);
         if( isHighPriority(x) && isLowPriority(y) ) {
             return 1;
         } else if( isLowPriority(x) && isHighPriority(y) ) {
@@ -63,8 +83,8 @@ public class Evaluator {
     }
     
     private boolean isOperator(String op) {
-        for(int i=0;i<operators.length;i++) {
-            if(op.length() == 1 && operators[i].equals(op)) {
+        for (String operator : operators) {
+            if (op.length() == 1 && operator.equals(op)) {
                 return true;
             }
         }
@@ -72,24 +92,15 @@ public class Evaluator {
     }
     
     private boolean isDigit(String op) {
-        if(op.length() == 1 && Character.isDigit(op.toCharArray()[0])) {
-            return true;
-        }
-        return false;
+        return op.length() == 1 && Character.isDigit(op.toCharArray()[0]);
     }
     
     private boolean isHighPriority(String operator) {
-        if(operator.equals("*") || operator.equals("/")) {
-            return true;
-        }
-        return false;
+        return operator.equals("*") || operator.equals("/");
     }
     
     private boolean isLowPriority(String operator) {
-        if(operator.equals("+") || operator.equals("-")) {
-            return true;
-        }
-        return false;
+        return operator.equals("+") || operator.equals("-");
     }
     
     private void printQueue(Queue<String> queue) {
