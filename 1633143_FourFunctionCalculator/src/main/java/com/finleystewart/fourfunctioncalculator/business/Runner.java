@@ -32,7 +32,7 @@ public class Runner {
         input.offer("*");
         input.offer("5");
         
-        test.toPostFix(input);
+        test.evaluate(test.toPostFix(input));
     }
     
 }

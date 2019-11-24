@@ -5,6 +5,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Queue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,12 +19,11 @@ public class Evaluator {
     private final static Logger LOG = LoggerFactory.getLogger(Evaluator.class);
     
     private Deque<String> stack = new ArrayDeque<>();
-    private Queue<String> postFixQueue = new ArrayDeque<>();
     
     public Queue<String> toPostFix(Queue<String> input) {
         
         stack.clear();
-        postFixQueue.clear();
+        Queue<String> postFixQueue = new ArrayDeque<>();
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
@@ -66,7 +66,45 @@ public class Evaluator {
     }
     
     public double evaluate(Queue<String> input) {
-        return 0;
+        
+        stack.clear();
+        Deque<String> expressionStack = new ArrayDeque<>();
+        
+        while (!input.isEmpty()) {
+            // Send digits straight to the queue
+            if(isDigit(input.peek())) {
+                LOG.info("Found digit: " + input.peek());
+                stack.push(input.poll());
+            } else if (isOperator(input.peek())) {
+                expressionStack.push(stack.pop());
+                expressionStack.push(input.poll());
+                expressionStack.push(stack.pop());
+                
+                Double value = solve(expressionStack.pop(), expressionStack.pop(), expressionStack.pop());
+                
+                stack.push(value.toString());
+            }
+        }
+        
+        LOG.info("Result: " + stack.peek());
+        
+        return Double.parseDouble(stack.pop());
+    }
+    
+    private double solve(String x, String op, String y) {
+        LOG.info("Operation: " + x + " " + op + " " + y);
+        switch(op) {
+            case "*":
+                return Double.parseDouble(x) * Double.parseDouble(y);
+            case "/":
+                return Double.parseDouble(x) / Double.parseDouble(y);
+            case "+":
+                return Double.parseDouble(x) + Double.parseDouble(y);
+            case "-":
+                return Double.parseDouble(x) - Double.parseDouble(y);
+            default:
+                throw new IllegalArgumentException("Unrecognised operator");
+        }
     }
     
     private int compareOperators(String x, String y) {
