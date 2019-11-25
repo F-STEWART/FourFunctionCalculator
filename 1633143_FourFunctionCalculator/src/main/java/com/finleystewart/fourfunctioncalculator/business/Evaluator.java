@@ -2,15 +2,14 @@ package com.finleystewart.fourfunctioncalculator.business;
 
 import static com.finleystewart.fourfunctioncalculator.business.Constants.operators;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Queue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ *  A class that evaluates mathematical expressions using the proper order of operations
  *
  * @author 1633143
  */

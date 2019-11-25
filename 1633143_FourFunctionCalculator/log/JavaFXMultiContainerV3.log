@@ -124,3 +124,36 @@
 [INFO ] 2019-11-23 23:12:08.441 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
 [INFO ] 2019-11-23 23:12:08.441 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
 [INFO ] 2019-11-23 23:12:08.442 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 10:24:51.076 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:24:51.086 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:24:51.096 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 10:24:51.106 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 10:24:51.106 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 10:24:51.106 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:24:51.106 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:24:51.106 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0

@@ -6,6 +6,8 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Queue;
 
 /**
@@ -18,19 +20,7 @@ public class Runner {
         Evaluator test = new Evaluator();
         Queue<String> input = new ArrayDeque<>();
         
-        input.offer("(");
-        input.offer("(");
-        input.offer("1");
-        input.offer("+");
-        input.offer("2");
-        input.offer(")");
-        input.offer("*");
-        input.offer("3");
-        input.offer("-");
-        input.offer("4");
-        input.offer(")");
-        input.offer("*");
-        input.offer("5");
+        input.addAll(new ArrayList<>(Arrays.asList("(","(","1","+","2",")","*","3","-","4",")","*","5")));
         
         test.evaluate(test.toPostFix(input));
     }
