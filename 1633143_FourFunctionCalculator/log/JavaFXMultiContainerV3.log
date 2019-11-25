@@ -157,3 +157,396 @@
 [INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
 [INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
 [INFO ] 2019-11-25 10:24:51.116 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 10:48:19.385 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:48:19.395 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 10:48:19.405 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:48:19.415 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 10:48:19.425 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:48:19.425 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 10:48:19.425 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:48:19.425 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 10:48:19.425 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 10:48:41.875 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:48:41.885 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 10:48:41.895 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:48:41.905 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 10:48:41.915 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 10:55:45.651 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:55:45.661 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:55:45.671 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 10:55:45.681 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 10:55:45.691 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:04:56.281 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:05:56.215 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:05:56.225 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 11:05:56.235 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:05:56.245 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:05:56.255 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:06:08.814 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:08:03.777 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:08:03.787 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:08:03.797 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:08:03.807 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:08:03.807 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:08:03.817 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:10:53.830 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:12:24.515 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:15:18.335 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:16:53.479 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:19:30.568 [main] EvaluatorTests - Starting test [testExpressions[[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]]
+[INFO ] 2019-11-25 11:19:51.926 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:19:51.936 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:19:51.946 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:19:51.946 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:19:51.946 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:19:51.956 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:19:51.966 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:19:51.966 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:19:51.966 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:19:51.976 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:20:01.465 [main] EvaluatorTests - Starting test [testExpressions[0 plan[[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]]=25]]
+[INFO ] 2019-11-25 11:20:45.092 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-11-25 11:23:49.609 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-11-25 11:31:28.142 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:31:28.162 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:31:28.172 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - 1
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - 2
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - +
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - 3
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - *
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - 4
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - -
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - *
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:31:28.182 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:31:28.192 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.202 [main] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:31:28.202 [main] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:31:28.202 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=25]]
+[INFO ] 2019-11-25 11:31:28.202 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Compare * to -
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found operator: /
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Compare / to *
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Compare / to -
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found digit: 9
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:31:28.212 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - *
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 6
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 2
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - *
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 9
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - 6
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - -
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - /
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - -
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:31:28.222 [main] Evaluator - Operation: 5 * 5
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Operation: 6 * 2
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Found digit: 9
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Operation: 9 - 6
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Operation: 12.0 / 3.0
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Operation: 25.0 - 4.0
+[INFO ] 2019-11-25 11:31:28.232 [main] Evaluator - Result: 21.0
+[INFO ] 2019-11-25 11:31:28.232 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=25]
+expected:<21.0> but was:<25.0>]
+[INFO ] 2019-11-25 11:33:57.643 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:33:57.673 [main] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - 1
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - 2
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - +
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - 3
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - *
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - 4
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - -
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - *
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:33:57.683 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:57.693 [main] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:33:57.693 [main] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:33:57.693 [main] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:33:57.693 [main] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:33:57.703 [main] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:33:57.703 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.703 [main] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:33:57.703 [main] Evaluator - Result: 25.0
+[INFO ] 2019-11-25 11:33:57.713 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Compare * to -
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found operator: /
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Compare / to *
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Compare / to -
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found: (
+[INFO ] 2019-11-25 11:33:57.713 [main] Evaluator - Found digit: 9
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - Found: )
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 5
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - *
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 6
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 2
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - *
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 9
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - 6
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - -
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - /
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - -
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.723 [main] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Operation: 5 * 5
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Operation: 6 * 2
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Found digit: 9
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Found digit: 6
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Operation: 9 - 6
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Operation: 12.0 / 3.0
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Operation: 25.0 - 4.0
+[INFO ] 2019-11-25 11:33:57.733 [main] Evaluator - Result: 21.0
+[INFO ] 2019-11-25 11:33:59.863 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:33:59.873 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-11-25 11:33:59.883 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-11-25 11:33:59.893 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 5
+[INFO ] 2019-11-25 11:33:59.893 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-11-25 11:33:59.893 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-11-25 11:33:59.893 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 5
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-11-25 11:33:59.903 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 25.0
