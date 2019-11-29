@@ -1,6 +1,7 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
 import static com.finleystewart.fourfunctioncalculator.business.Constants.operators;
+import com.finleystewart.fourfunctioncalculator.business.Validator;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
@@ -17,6 +18,7 @@ public class Evaluator {
     
     private final static Logger LOG = LoggerFactory.getLogger(Evaluator.class);
     
+    private Validator validator = new Validator();
     private Deque<String> stack = new ArrayDeque<>();
     
     private Queue<String> toPostFix(Queue<String> input) {
@@ -26,10 +28,10 @@ public class Evaluator {
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
-            if(isDouble(input.peek())) {
+            if(validator.isDouble(input.peek())) {
                 LOG.info("Found digit: " + input.peek());
                 postFixQueue.offer(input.poll());
-            } else if (isOperator(input.peek())) {
+            } else if (validator.isOperator(input.peek())) {
                 LOG.info("Found operator: " + input.peek());
                 // If operator is not greater than the one below it, send that lower one to the queue
                 while(!stack.isEmpty() &&  !stack.peek().equals("(") && compareOperators(input.peek(), stack.peek()) != 1) {
@@ -64,15 +66,6 @@ public class Evaluator {
         return postFixQueue;
     }
     
-    private boolean isDouble(String maybe) {
-        try {
-            Double tester = Double.parseDouble(maybe);
-        } catch(NumberFormatException e) {
-            return false;
-        }
-        return true;
-    }
-    
     public double evaluatePostFix(Queue<String> input) {
         
         stack.clear();
@@ -80,10 +73,10 @@ public class Evaluator {
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
-            if(isDouble(input.peek())) {
+            if(validator.isDouble(input.peek())) {
                 LOG.info("Found digit: " + input.peek());
                 stack.push(input.poll());
-            } else if (isOperator(input.peek())) {
+            } else if (validator.isOperator(input.peek())) {
                 expressionStack.push(stack.pop());
                 expressionStack.push(input.poll());
                 expressionStack.push(stack.pop());
@@ -131,15 +124,6 @@ public class Evaluator {
         } else {
             throw new IllegalArgumentException("operator is not acceptable");
         }
-    }
-    
-    private boolean isOperator(String op) {
-        for (String operator : operators) {
-            if (op.length() == 1 && operator.equals(op)) {
-                return true;
-            }
-        }
-        return false;
     }
     
     private boolean isHighPriority(String operator) {
