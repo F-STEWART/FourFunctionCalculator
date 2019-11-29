@@ -19,6 +19,7 @@ public class Validator {
             if( !( isDouble(element) || isOperator(element) || element.equals("(") || element.equals(")") ) ) {
                 return false;
             }
+            
         }
         return true;
     }
