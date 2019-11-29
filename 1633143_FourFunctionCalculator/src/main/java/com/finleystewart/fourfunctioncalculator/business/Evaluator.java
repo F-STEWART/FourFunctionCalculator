@@ -19,14 +19,14 @@ public class Evaluator {
     
     private Deque<String> stack = new ArrayDeque<>();
     
-    public Queue<String> toPostFix(Queue<String> input) {
+    private Queue<String> toPostFix(Queue<String> input) {
         
         stack.clear();
         Queue<String> postFixQueue = new ArrayDeque<>();
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
-            if(isDigit(input.peek())) {
+            if(isDouble(input.peek())) {
                 LOG.info("Found digit: " + input.peek());
                 postFixQueue.offer(input.poll());
             } else if (isOperator(input.peek())) {
@@ -64,14 +64,23 @@ public class Evaluator {
         return postFixQueue;
     }
     
-    public double evaluate(Queue<String> input) {
+    private boolean isDouble(String maybe) {
+        try {
+            Double tester = Double.parseDouble(maybe);
+        } catch(NumberFormatException e) {
+            return false;
+        }
+        return true;
+    }
+    
+    public double evaluatePostFix(Queue<String> input) {
         
         stack.clear();
         Deque<String> expressionStack = new ArrayDeque<>();
         
         while (!input.isEmpty()) {
             // Send digits straight to the queue
-            if(isDigit(input.peek())) {
+            if(isDouble(input.peek())) {
                 LOG.info("Found digit: " + input.peek());
                 stack.push(input.poll());
             } else if (isOperator(input.peek())) {
@@ -88,6 +97,11 @@ public class Evaluator {
         LOG.info("Result: " + stack.peek());
         
         return Double.parseDouble(stack.pop());
+    }
+    
+    public double evaluateInFix(Queue<String> inFixInput) {
+        Queue<String> input = toPostFix(inFixInput);
+        return evaluatePostFix(input);
     }
     
     private double solve(String x, String op, String y) {
@@ -126,10 +140,6 @@ public class Evaluator {
             }
         }
         return false;
-    }
-    
-    private boolean isDigit(String op) {
-        return op.length() == 1 && Character.isDigit(op.toCharArray()[0]);
     }
     
     private boolean isHighPriority(String operator) {

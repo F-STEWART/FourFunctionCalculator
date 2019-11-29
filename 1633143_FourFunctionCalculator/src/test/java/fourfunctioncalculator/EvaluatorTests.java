@@ -66,6 +66,6 @@ public class EvaluatorTests {
      */
     @Test
     public void testExpressions() {
-        assertEquals(expected, evaluator.evaluate(evaluator.toPostFix(queue)), 0.001);
+        assertEquals(expected, evaluator.evaluateInFix(queue), 0.001);
     }
 }
