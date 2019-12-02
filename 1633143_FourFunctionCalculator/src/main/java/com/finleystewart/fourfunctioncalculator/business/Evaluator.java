@@ -66,7 +66,7 @@ public class Evaluator {
         return postFixQueue;
     }
     
-    public double evaluatePostFix(Queue<String> input) {
+    private double evaluatePostFix(Queue<String> input) {
         
         stack.clear();
         Deque<String> expressionStack = new ArrayDeque<>();
@@ -93,6 +93,7 @@ public class Evaluator {
     }
     
     public double evaluateInFix(Queue<String> inFixInput) {
+        validator.Validate(inFixInput);
         Queue<String> input = toPostFix(inFixInput);
         return evaluatePostFix(input);
     }

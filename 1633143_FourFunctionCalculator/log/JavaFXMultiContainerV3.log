@@ -726,3 +726,799 @@ expected:<21.0> but was:<25.0>]
 [INFO ] 2019-11-28 22:48:06.488 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: .5
 [INFO ] 2019-11-28 22:48:06.489 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * .5
 [INFO ] 2019-11-28 22:48:06.489 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 2.5
+[INFO ] 2019-12-01 21:39:55.487 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:39:55.505 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:39:55.505 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:39:55.506 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:39:55.507 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:39:55.507 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:39:55.507 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:39:55.508 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:39:55.508 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:39:55.508 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:39:55.513 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:39:55.514 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:39:55.514 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:39:55.514 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:39:55.514 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:39:55.515 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:39:55.515 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:39:55.516 [main] Evaluator - +
+[INFO ] 2019-12-01 21:39:55.516 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:39:55.516 [main] Evaluator - *
+[INFO ] 2019-12-01 21:39:55.516 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:39:55.516 [main] Evaluator - -
+[INFO ] 2019-12-01 21:39:55.517 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:39:55.517 [main] Evaluator - *
+[INFO ] 2019-12-01 21:39:55.518 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:39:55.538 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:39:55.539 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:39:55.539 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:39:55.540 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:39:55.540 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:39:55.540 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:39:55.540 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:39:55.541 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:39:55.541 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:39:55.542 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:39:55.542 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:39:55.542 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:39:55.543 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:39:55.544 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:39:55.544 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:39:55.544 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:39:55.545 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:39:55.545 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:39:55.545 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:39:55.545 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:39:55.546 [main] Evaluator - *
+[INFO ] 2019-12-01 21:39:55.546 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:39:55.546 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:39:55.546 [main] Evaluator - *
+[INFO ] 2019-12-01 21:39:55.546 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:39:55.547 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:39:55.547 [main] Evaluator - -
+[INFO ] 2019-12-01 21:39:55.547 [main] Evaluator - /
+[INFO ] 2019-12-01 21:39:55.547 [main] Evaluator - -
+[INFO ] 2019-12-01 21:39:55.547 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:42:46.914 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:42:46.922 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:42:46.922 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:42:46.923 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:42:46.923 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:42:46.924 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:42:46.925 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:42:46.925 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:42:46.926 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:42:46.927 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:42:46.934 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:42:46.934 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:42:46.935 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:42:46.935 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:42:46.936 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:42:46.936 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:42:46.936 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:42:46.936 [main] Evaluator - +
+[INFO ] 2019-12-01 21:42:46.937 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:42:46.937 [main] Evaluator - *
+[INFO ] 2019-12-01 21:42:46.937 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:42:46.938 [main] Evaluator - -
+[INFO ] 2019-12-01 21:42:46.938 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:42:46.938 [main] Evaluator - *
+[INFO ] 2019-12-01 21:42:46.939 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:42:46.952 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:42:46.952 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:42:46.952 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:42:46.952 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:42:46.953 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:42:46.954 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:42:46.955 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:42:46.956 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:42:46.956 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:42:46.957 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:42:46.957 [main] Evaluator - *
+[INFO ] 2019-12-01 21:42:46.957 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:42:46.957 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:42:46.957 [main] Evaluator - *
+[INFO ] 2019-12-01 21:42:46.958 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:42:46.958 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:42:46.958 [main] Evaluator - -
+[INFO ] 2019-12-01 21:42:46.959 [main] Evaluator - /
+[INFO ] 2019-12-01 21:42:46.959 [main] Evaluator - -
+[INFO ] 2019-12-01 21:42:46.959 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:45:03.463 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:45:03.469 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:45:03.469 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:45:03.470 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:45:03.471 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:45:03.471 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:45:03.472 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:45:03.472 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:45:03.472 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:45:03.473 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:45:03.476 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:45:03.476 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:45:03.477 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:45:03.477 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:45:03.477 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:45:03.478 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:45:03.478 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:45:03.478 [main] Evaluator - +
+[INFO ] 2019-12-01 21:45:03.478 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:45:03.479 [main] Evaluator - *
+[INFO ] 2019-12-01 21:45:03.479 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:45:03.480 [main] Evaluator - -
+[INFO ] 2019-12-01 21:45:03.480 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:45:03.480 [main] Evaluator - *
+[INFO ] 2019-12-01 21:45:03.481 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:45:03.494 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:45:03.495 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:45:03.495 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:45:03.495 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:45:03.496 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:45:03.496 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:45:03.496 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:45:03.496 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:45:03.497 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:45:03.497 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:45:03.498 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:45:03.498 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:45:03.499 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:45:03.499 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:45:03.500 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:45:03.502 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:45:03.502 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:45:03.502 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - *
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:45:03.503 [main] Evaluator - *
+[INFO ] 2019-12-01 21:45:03.504 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:45:03.504 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:45:03.504 [main] Evaluator - -
+[INFO ] 2019-12-01 21:45:03.504 [main] Evaluator - /
+[INFO ] 2019-12-01 21:45:03.505 [main] Evaluator - -
+[INFO ] 2019-12-01 21:45:03.505 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:46:00.777 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:46:00.783 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:00.783 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:00.784 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:46:00.785 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:46:00.785 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:00.785 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:00.786 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:00.787 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:46:00.787 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:00.792 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:46:00.793 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:46:00.793 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:00.794 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:00.794 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.794 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:46:00.794 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:46:00.794 [main] Evaluator - +
+[INFO ] 2019-12-01 21:46:00.795 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:46:00.795 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:00.795 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:46:00.795 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:00.796 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:00.796 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:00.796 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:46:00.797 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:00.804 [main] Evaluator - Operation: 1 + 2
+[INFO ] 2019-12-01 21:46:00.805 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:46:00.805 [main] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-12-01 21:46:00.805 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:46:00.806 [main] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-12-01 21:46:00.806 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.806 [main] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-12-01 21:46:00.807 [main] Evaluator - Result: 25.0
+[INFO ] 2019-12-01 21:46:00.811 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:46:00.812 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.812 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:00.812 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.813 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:00.813 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:46:00.813 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:00.814 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:00.814 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:46:00.814 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:00.815 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:46:00.815 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:46:00.816 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:46:00.816 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:00.816 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:46:00.816 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:00.816 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:00.817 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:00.817 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:00.817 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:00.817 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:00.818 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:46:00.818 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:46:00.818 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:00.818 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:46:00.818 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:46:00.819 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:00.819 [main] Evaluator - /
+[INFO ] 2019-12-01 21:46:00.819 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:00.821 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.821 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:00.822 [main] Evaluator - Operation: 5 * 5
+[INFO ] 2019-12-01 21:46:00.822 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:00.822 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:00.823 [main] Evaluator - Operation: 6 * 2
+[INFO ] 2019-12-01 21:46:00.823 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:46:00.823 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:00.823 [main] Evaluator - Operation: 9 - 6
+[INFO ] 2019-12-01 21:46:00.823 [main] Evaluator - Operation: 12.0 / 3.0
+[INFO ] 2019-12-01 21:46:00.824 [main] Evaluator - Operation: 25.0 - 4.0
+[INFO ] 2019-12-01 21:46:00.824 [main] Evaluator - Result: 21.0
+[INFO ] 2019-12-01 21:46:05.239 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:05.241 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:05.242 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:46:05.242 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:46:05.243 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:05.243 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:05.243 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:05.243 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:46:05.243 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:05.247 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:46:05.247 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: .5
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-12-01 21:46:05.248 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - .5
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:46:05.249 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:05.254 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-12-01 21:46:05.256 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:46:05.256 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-12-01 21:46:05.257 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:46:05.257 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-12-01 21:46:05.257 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: .5
+[INFO ] 2019-12-01 21:46:05.257 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * .5
+[INFO ] 2019-12-01 21:46:05.258 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 2.5
+[INFO ] 2019-12-01 21:46:39.411 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:46:39.416 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:39.417 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:39.418 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:46:39.418 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:46:39.419 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:39.419 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:39.420 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:39.420 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:46:39.420 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:39.429 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:46:39.429 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:46:39.430 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:39.430 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:39.431 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:39.431 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:46:39.431 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:46:39.431 [main] Evaluator - +
+[INFO ] 2019-12-01 21:46:39.432 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:46:39.432 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:39.432 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:46:39.433 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:39.433 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:39.433 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:39.434 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:46:39.447 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:46:39.447 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:39.448 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:39.448 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:46:39.448 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:39.448 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:46:39.448 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:39.449 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:46:39.449 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:46:39.450 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:46:39.450 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:46:39.451 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:46:39.451 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:46:39.451 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:46:39.451 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:46:39.453 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:46:39.453 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:46:39.454 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:46:39.454 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:39.454 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:46:39.454 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:39.454 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - *
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:39.455 [main] Evaluator - /
+[INFO ] 2019-12-01 21:46:39.456 [main] Evaluator - -
+[INFO ] 2019-12-01 21:46:39.456 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue is invalid]
+[INFO ] 2019-12-01 21:48:07.251 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:48:07.260 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:48:07.261 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:48:07.262 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:48:07.265 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:48:07.266 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:48:07.267 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:48:07.267 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:48:07.268 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:48:07.270 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:48:07.276 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:48:07.276 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:48:07.277 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:48:07.277 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:48:07.277 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:48:07.277 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:48:07.278 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:48:07.278 [main] Evaluator - +
+[INFO ] 2019-12-01 21:48:07.278 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:48:07.278 [main] Evaluator - *
+[INFO ] 2019-12-01 21:48:07.279 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:48:07.279 [main] Evaluator - -
+[INFO ] 2019-12-01 21:48:07.279 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:48:07.279 [main] Evaluator - *
+[INFO ] 2019-12-01 21:48:07.280 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has repeat types]
+[INFO ] 2019-12-01 21:48:07.293 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:48:07.293 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:48:07.294 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:48:07.294 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:48:07.294 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:48:07.294 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:48:07.295 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:48:07.295 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:48:07.296 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:48:07.297 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:48:07.297 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:48:07.297 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:48:07.300 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:48:07.300 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:48:07.301 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:48:07.301 [main] Evaluator - *
+[INFO ] 2019-12-01 21:48:07.301 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:48:07.302 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:48:07.302 [main] Evaluator - *
+[INFO ] 2019-12-01 21:48:07.303 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:48:07.303 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:48:07.304 [main] Evaluator - -
+[INFO ] 2019-12-01 21:48:07.305 [main] Evaluator - /
+[INFO ] 2019-12-01 21:48:07.306 [main] Evaluator - -
+[INFO ] 2019-12-01 21:48:07.307 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has repeat types]
+[INFO ] 2019-12-01 21:50:59.240 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 21:50:59.246 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:50:59.247 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:50:59.247 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 21:50:59.248 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 21:50:59.249 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:50:59.249 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:50:59.249 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:50:59.249 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 21:50:59.250 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:50:59.255 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:50:59.256 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 21:50:59.256 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:50:59.256 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:50:59.257 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:50:59.257 [main] Evaluator - 1
+[INFO ] 2019-12-01 21:50:59.257 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:50:59.257 [main] Evaluator - +
+[INFO ] 2019-12-01 21:50:59.258 [main] Evaluator - 3
+[INFO ] 2019-12-01 21:50:59.258 [main] Evaluator - *
+[INFO ] 2019-12-01 21:50:59.258 [main] Evaluator - 4
+[INFO ] 2019-12-01 21:50:59.259 [main] Evaluator - -
+[INFO ] 2019-12-01 21:50:59.259 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:50:59.259 [main] Evaluator - *
+[INFO ] 2019-12-01 21:50:59.260 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has repeat types]
+[INFO ] 2019-12-01 21:50:59.271 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 21:50:59.271 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:50:59.271 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:50:59.271 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 21:50:59.271 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:50:59.272 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 21:50:59.272 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:50:59.273 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 21:50:59.273 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 21:50:59.273 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 21:50:59.273 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 21:50:59.273 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 21:50:59.274 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 21:50:59.274 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 21:50:59.275 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 21:50:59.275 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 21:50:59.275 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 21:50:59.276 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 21:50:59.276 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:50:59.276 [main] Evaluator - 5
+[INFO ] 2019-12-01 21:50:59.276 [main] Evaluator - *
+[INFO ] 2019-12-01 21:50:59.276 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:50:59.277 [main] Evaluator - 2
+[INFO ] 2019-12-01 21:50:59.277 [main] Evaluator - *
+[INFO ] 2019-12-01 21:50:59.277 [main] Evaluator - 9
+[INFO ] 2019-12-01 21:50:59.277 [main] Evaluator - 6
+[INFO ] 2019-12-01 21:50:59.278 [main] Evaluator - -
+[INFO ] 2019-12-01 21:50:59.278 [main] Evaluator - /
+[INFO ] 2019-12-01 21:50:59.278 [main] Evaluator - -
+[INFO ] 2019-12-01 21:50:59.278 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:00:21.387 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 22:00:21.398 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:00:21.398 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:00:21.405 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:00:21.406 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:00:21.408 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:00:21.409 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:00:21.412 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:00:21.413 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:00:21.413 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:00:21.430 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:00:21.431 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:00:21.432 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:00:21.433 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:00:21.434 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:00:21.435 [main] Evaluator - 1
+[INFO ] 2019-12-01 22:00:21.436 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:00:21.442 [main] Evaluator - +
+[INFO ] 2019-12-01 22:00:21.443 [main] Evaluator - 3
+[INFO ] 2019-12-01 22:00:21.443 [main] Evaluator - *
+[INFO ] 2019-12-01 22:00:21.445 [main] Evaluator - 4
+[INFO ] 2019-12-01 22:00:21.445 [main] Evaluator - -
+[INFO ] 2019-12-01 22:00:21.447 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:00:21.447 [main] Evaluator - *
+[INFO ] 2019-12-01 22:00:21.450 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:00:21.465 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:00:21.466 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:00:21.466 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:00:21.466 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:00:21.467 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:00:21.467 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:00:21.467 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:00:21.468 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:00:21.468 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 22:00:21.468 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:00:21.469 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 22:00:21.469 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 22:00:21.469 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 22:00:21.470 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:00:21.470 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 22:00:21.471 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:00:21.471 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:00:21.471 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:00:21.471 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:00:21.472 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:00:21.472 [main] Evaluator - *
+[INFO ] 2019-12-01 22:00:21.472 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:00:21.472 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:00:21.473 [main] Evaluator - *
+[INFO ] 2019-12-01 22:00:21.473 [main] Evaluator - 9
+[INFO ] 2019-12-01 22:00:21.473 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:00:21.473 [main] Evaluator - -
+[INFO ] 2019-12-01 22:00:21.474 [main] Evaluator - /
+[INFO ] 2019-12-01 22:00:21.474 [main] Evaluator - -
+[INFO ] 2019-12-01 22:00:21.474 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:00:21.480 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[INFO ] 2019-12-01 22:00:21.481 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:00:21.481 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:00:21.481 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:00:21.482 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:00:21.482 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:00:21.482 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:00:21.482 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:00:21.483 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:00:21.483 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:00:21.483 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:00:21.484 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:05:48.448 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 22:05:48.458 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:05:48.459 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:05:48.459 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:05:48.460 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:05:48.461 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:05:48.461 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:05:48.461 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:05:48.461 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:05:48.462 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:05:48.466 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:05:48.466 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:05:48.467 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:05:48.467 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:05:48.467 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:05:48.468 [main] Evaluator - 1
+[INFO ] 2019-12-01 22:05:48.468 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:05:48.468 [main] Evaluator - +
+[INFO ] 2019-12-01 22:05:48.468 [main] Evaluator - 3
+[INFO ] 2019-12-01 22:05:48.468 [main] Evaluator - *
+[INFO ] 2019-12-01 22:05:48.469 [main] Evaluator - 4
+[INFO ] 2019-12-01 22:05:48.469 [main] Evaluator - -
+[INFO ] 2019-12-01 22:05:48.469 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:05:48.470 [main] Evaluator - *
+[INFO ] 2019-12-01 22:05:48.471 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:05:48.480 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:05:48.481 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:05:48.481 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:05:48.481 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:05:48.481 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:05:48.481 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 22:05:48.482 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 22:05:48.483 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 22:05:48.483 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:05:48.483 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 22:05:48.484 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:05:48.484 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:05:48.484 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:05:48.485 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:05:48.485 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:05:48.486 [main] Evaluator - *
+[INFO ] 2019-12-01 22:05:48.486 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:05:48.486 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:05:48.486 [main] Evaluator - *
+[INFO ] 2019-12-01 22:05:48.486 [main] Evaluator - 9
+[INFO ] 2019-12-01 22:05:48.487 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:05:48.487 [main] Evaluator - -
+[INFO ] 2019-12-01 22:05:48.487 [main] Evaluator - /
+[INFO ] 2019-12-01 22:05:48.488 [main] Evaluator - -
+[INFO ] 2019-12-01 22:05:48.488 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:05:48.492 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[INFO ] 2019-12-01 22:05:48.493 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:05:48.493 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:05:48.494 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:05:48.494 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:05:48.496 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:05:48.497 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:05:48.497 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:05:48.499 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:05:48.500 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:05:48.500 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:05:48.500 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:06:51.484 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 22:06:51.490 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:06:51.490 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:06:51.491 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:06:51.493 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:06:51.493 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:06:51.493 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:06:51.494 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:06:51.494 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:06:51.495 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:06:51.500 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:06:51.500 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:06:51.501 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:06:51.501 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:06:51.501 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:06:51.502 [main] Evaluator - 1
+[INFO ] 2019-12-01 22:06:51.502 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:06:51.502 [main] Evaluator - +
+[INFO ] 2019-12-01 22:06:51.502 [main] Evaluator - 3
+[INFO ] 2019-12-01 22:06:51.503 [main] Evaluator - *
+[INFO ] 2019-12-01 22:06:51.503 [main] Evaluator - 4
+[INFO ] 2019-12-01 22:06:51.503 [main] Evaluator - -
+[INFO ] 2019-12-01 22:06:51.503 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:06:51.503 [main] Evaluator - *
+[INFO ] 2019-12-01 22:06:51.504 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:06:51.515 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:06:51.516 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:06:51.516 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:06:51.516 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:06:51.517 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:06:51.517 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:06:51.517 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:06:51.518 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:06:51.518 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 22:06:51.518 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:06:51.519 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 22:06:51.519 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 22:06:51.519 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 22:06:51.520 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:06:51.520 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 22:06:51.521 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:06:51.521 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:06:51.522 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:06:51.523 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:06:51.523 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:06:51.524 [main] Evaluator - *
+[INFO ] 2019-12-01 22:06:51.524 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:06:51.524 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:06:51.524 [main] Evaluator - *
+[INFO ] 2019-12-01 22:06:51.524 [main] Evaluator - 9
+[INFO ] 2019-12-01 22:06:51.525 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:06:51.525 [main] Evaluator - -
+[INFO ] 2019-12-01 22:06:51.526 [main] Evaluator - /
+[INFO ] 2019-12-01 22:06:51.526 [main] Evaluator - -
+[INFO ] 2019-12-01 22:06:51.527 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has repeat types]
+[INFO ] 2019-12-01 22:06:51.533 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[INFO ] 2019-12-01 22:06:51.533 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:06:51.533 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:06:51.533 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:06:51.533 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:06:51.534 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:06:51.534 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:06:51.534 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:06:51.534 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:06:51.535 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:06:51.535 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:06:51.535 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:08:33.860 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 22:08:33.864 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has improper brackets]
+[INFO ] 2019-12-01 22:08:33.874 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:08:33.874 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has improper brackets]
+[INFO ] 2019-12-01 22:08:33.878 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[INFO ] 2019-12-01 22:08:33.880 [main] ValidationTests - Starting test [testExpressions[1 plan[5, 5, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:08:33.882 [main] ValidationTests - Starting test [testExpressions[2 plan[5, P, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:10:38.462 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[DEBUG] 2019-12-01 22:10:38.468 [main] Evaluator - Opened: 4
+[DEBUG] 2019-12-01 22:10:38.468 [main] Evaluator - Closed: 0
+[INFO ] 2019-12-01 22:10:38.469 [main] EvaluatorTests - Failed test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]
+Input queue has improper brackets]
+[INFO ] 2019-12-01 22:10:38.480 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[DEBUG] 2019-12-01 22:10:38.480 [main] Evaluator - Opened: 2
+[DEBUG] 2019-12-01 22:10:38.481 [main] Evaluator - Closed: 0
+[INFO ] 2019-12-01 22:10:38.483 [main] EvaluatorTests - Failed test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]
+Input queue has improper brackets]
+[INFO ] 2019-12-01 22:10:38.491 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[DEBUG] 2019-12-01 22:10:38.491 [main] Evaluator - Opened: 3
+[DEBUG] 2019-12-01 22:10:38.492 [main] Evaluator - Closed: 0
+[INFO ] 2019-12-01 22:10:38.495 [main] ValidationTests - Starting test [testExpressions[1 plan[5, 5, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[DEBUG] 2019-12-01 22:10:38.495 [main] Evaluator - Opened: 2
+[DEBUG] 2019-12-01 22:10:38.495 [main] Evaluator - Closed: 0
+[INFO ] 2019-12-01 22:10:38.498 [main] ValidationTests - Starting test [testExpressions[2 plan[5, P, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[DEBUG] 2019-12-01 22:10:38.499 [main] Evaluator - Opened: 2
+[DEBUG] 2019-12-01 22:10:38.510 [main] Evaluator - Closed: 0
+[INFO ] 2019-12-01 22:11:14.166 [main] EvaluatorTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, ), *, 5]=25]]
+[INFO ] 2019-12-01 22:11:14.171 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:11:14.171 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:11:14.172 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:11:14.173 [main] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:11:14.173 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:14.173 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:11:14.173 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:14.174 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:11:14.174 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:11:14.179 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:11:14.179 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:11:14.180 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:11:14.180 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:14.180 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.180 [main] Evaluator - 1
+[INFO ] 2019-12-01 22:11:14.180 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:11:14.181 [main] Evaluator - +
+[INFO ] 2019-12-01 22:11:14.181 [main] Evaluator - 3
+[INFO ] 2019-12-01 22:11:14.181 [main] Evaluator - *
+[INFO ] 2019-12-01 22:11:14.182 [main] Evaluator - 4
+[INFO ] 2019-12-01 22:11:14.182 [main] Evaluator - -
+[INFO ] 2019-12-01 22:11:14.182 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:11:14.182 [main] Evaluator - *
+[INFO ] 2019-12-01 22:11:14.183 [main] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:11:14.183 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:14.191 [main] Evaluator - Operation: 1 + 2
+[INFO ] 2019-12-01 22:11:14.192 [main] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:11:14.192 [main] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-12-01 22:11:14.192 [main] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:11:14.192 [main] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-12-01 22:11:14.193 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.194 [main] Evaluator - Operation: 5.0 * 5
+[INFO ] 2019-12-01 22:11:14.194 [main] Evaluator - Result: 25.0
+[INFO ] 2019-12-01 22:11:14.198 [main] EvaluatorTests - Starting test [testExpressions[1 plan[5, *, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:11:14.199 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.199 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:14.199 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.200 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:11:14.200 [main] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:11:14.201 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:11:14.201 [main] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:14.202 [main] Evaluator - Compare * to -
+[INFO ] 2019-12-01 22:11:14.202 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:14.203 [main] Evaluator - Found operator: /
+[INFO ] 2019-12-01 22:11:14.203 [main] Evaluator - Compare / to *
+[INFO ] 2019-12-01 22:11:14.204 [main] Evaluator - Compare / to -
+[INFO ] 2019-12-01 22:11:14.204 [main] Evaluator - Found: (
+[INFO ] 2019-12-01 22:11:14.204 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 22:11:14.204 [main] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:11:14.205 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:11:14.205 [main] Evaluator - Found: )
+[INFO ] 2019-12-01 22:11:14.205 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:11:14.206 [main] Evaluator - 5
+[INFO ] 2019-12-01 22:11:14.208 [main] Evaluator - *
+[INFO ] 2019-12-01 22:11:14.209 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:11:14.209 [main] Evaluator - 2
+[INFO ] 2019-12-01 22:11:14.209 [main] Evaluator - *
+[INFO ] 2019-12-01 22:11:14.209 [main] Evaluator - 9
+[INFO ] 2019-12-01 22:11:14.209 [main] Evaluator - 6
+[INFO ] 2019-12-01 22:11:14.210 [main] Evaluator - -
+[INFO ] 2019-12-01 22:11:14.210 [main] Evaluator - /
+[INFO ] 2019-12-01 22:11:14.210 [main] Evaluator - -
+[INFO ] 2019-12-01 22:11:14.211 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.211 [main] Evaluator - Found digit: 5
+[INFO ] 2019-12-01 22:11:14.211 [main] Evaluator - Operation: 5 * 5
+[INFO ] 2019-12-01 22:11:14.211 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:11:14.212 [main] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:14.212 [main] Evaluator - Operation: 6 * 2
+[INFO ] 2019-12-01 22:11:14.214 [main] Evaluator - Found digit: 9
+[INFO ] 2019-12-01 22:11:14.214 [main] Evaluator - Found digit: 6
+[INFO ] 2019-12-01 22:11:14.214 [main] Evaluator - Operation: 9 - 6
+[INFO ] 2019-12-01 22:11:14.215 [main] Evaluator - Operation: 12.0 / 3.0
+[INFO ] 2019-12-01 22:11:14.215 [main] Evaluator - Operation: 25.0 - 4.0
+[INFO ] 2019-12-01 22:11:14.215 [main] Evaluator - Result: 21.0
+[INFO ] 2019-12-01 22:11:14.220 [main] ValidationTests - Starting test [testExpressions[0 plan[(, (, 1, +, 2, ), *, 3, -, 4, , *, 5]=25]]
+[INFO ] 2019-12-01 22:11:14.222 [main] ValidationTests - Starting test [testExpressions[1 plan[5, 5, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:11:14.224 [main] ValidationTests - Starting test [testExpressions[2 plan[5, P, 5, -, 6, *, 2, /, (, 9, -, 6, )]=21]]
+[INFO ] 2019-12-01 22:11:17.002 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-12-01 22:11:17.005 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: (
+[INFO ] 2019-12-01 22:11:17.005 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:11:17.006 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: +
+[INFO ] 2019-12-01 22:11:17.006 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:17.006 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-12-01 22:11:17.006 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:17.007 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:11:17.007 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: -
+[INFO ] 2019-12-01 22:11:17.010 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Compare - to *
+[INFO ] 2019-12-01 22:11:17.010 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:11:17.011 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found: )
+[INFO ] 2019-12-01 22:11:17.011 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found operator: *
+[INFO ] 2019-12-01 22:11:17.011 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: .5
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 1
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 2
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - +
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 3
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-12-01 22:11:17.012 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - 4
+[INFO ] 2019-12-01 22:11:17.013 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - -
+[INFO ] 2019-12-01 22:11:17.013 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - .5
+[INFO ] 2019-12-01 22:11:17.013 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - *
+[INFO ] 2019-12-01 22:11:17.016 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 1
+[INFO ] 2019-12-01 22:11:17.016 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 2
+[INFO ] 2019-12-01 22:11:17.022 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 1 + 2
+[INFO ] 2019-12-01 22:11:17.022 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 3
+[INFO ] 2019-12-01 22:11:17.022 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 3.0 * 3
+[INFO ] 2019-12-01 22:11:17.023 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: 4
+[INFO ] 2019-12-01 22:11:17.023 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 9.0 - 4
+[INFO ] 2019-12-01 22:11:17.023 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Found digit: .5
+[INFO ] 2019-12-01 22:11:17.023 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Operation: 5.0 * .5
+[INFO ] 2019-12-01 22:11:17.023 [com.finleystewart.fourfunctioncalculator.MainApp.main()] Evaluator - Result: 2.5
