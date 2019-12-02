@@ -36,7 +36,15 @@ public class ValidationTests {
         return Arrays.asList(new Object[][]{
             {new ArrayDeque<>(Arrays.asList("(","(","1","+","2",")","*","3","-","4","","*","5")), 25},
             {new ArrayDeque<>(Arrays.asList("5","5","5","-","6","*","2","/","(","9","-","6",")")), 21},
-            {new ArrayDeque<>(Arrays.asList("5","P","5","-","6","*","2","/","(","9","-","6",")")), 21}
+            {new ArrayDeque<>(Arrays.asList("5","P","5","-","6","*","2","/","(","9","-","6",")")), 21},
+            {new ArrayDeque<>(Arrays.asList("2","*","(","3","+","3","+","(","3","+","4",")")), 26},
+            {new ArrayDeque<>(Arrays.asList("5","*","/","-","6","*","2","*","4","+","1","-","7")), -24},
+            {new ArrayDeque<>(Arrays.asList("2","*","(","9","+","-8",")","*","-","6","-","3","/","2")), 10.5},
+            {new ArrayDeque<>(Arrays.asList("*","3","*","62","-","105","-","4","*","4","+","1")), 66},
+            {new ArrayDeque<>(Arrays.asList("2","-","-","-","7","+","(","4","+","5","+","-6",")")), -6},
+            {new ArrayDeque<>(Arrays.asList("3","+","3","3","7","*","1","/","(","5","-","6",")")), -1},
+            {new ArrayDeque<>(Arrays.asList("4","/","2", "+","(","6","*","2","+","8","*",")",")")), 62},
+            {new ArrayDeque<>(Arrays.asList("5","*","-", "-","(","2","*","4","-","9","-","6",")")), 12}
         });
     }
     

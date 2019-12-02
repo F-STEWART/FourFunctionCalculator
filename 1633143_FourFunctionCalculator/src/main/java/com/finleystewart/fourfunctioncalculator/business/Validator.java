@@ -1,7 +1,6 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
 import static com.finleystewart.fourfunctioncalculator.business.Constants.operators;
-import java.util.Iterator;
 import java.util.Queue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +13,9 @@ public class Validator {
     private final static Logger LOG = LoggerFactory.getLogger(Evaluator.class);
     
     public void Validate(Queue<String> input) {
+        if(isOperator(input.peek())) {
+            throw new IllegalArgumentException("Input queue cannot begin with an operator");
+        }
         String last = "";
         for (String element : input) {
             // Validate the elements

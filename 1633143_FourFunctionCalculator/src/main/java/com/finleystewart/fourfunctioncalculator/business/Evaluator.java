@@ -1,7 +1,5 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
-import static com.finleystewart.fourfunctioncalculator.business.Constants.operators;
-import com.finleystewart.fourfunctioncalculator.business.Validator;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
