@@ -50,7 +50,8 @@ public class EvaluatorTests {
             {new ArrayDeque<>(Arrays.asList("5","*","1", "-","(","2","*","4","-","9","-","6",")")), 12},
             {new ArrayDeque<>(Arrays.asList("5","+","1","-","9","/","2","*","(","2","+","2",")")), -12},
             {new ArrayDeque<>(Arrays.asList("1","/","1", "+","(","7","*","78","+","-40","*","6",")")), 307},
-            {new ArrayDeque<>(Arrays.asList("5","/","1", "/","2","+","(","4","-","9","-","6",")")), -8.5}
+            {new ArrayDeque<>(Arrays.asList("5","/","1", "/","2","+","(","4","-","9","-","6",")")), -8.5},
+            {new ArrayDeque<>(Arrays.asList("(","5","*", "5",")","(","5","*","5",")")), 625}
         });
     }
     
