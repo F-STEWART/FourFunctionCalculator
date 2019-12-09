@@ -1,5 +1,9 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
+import Exceptions.DivideByZeroException;
+import Exceptions.InvalidStringException;
+import Exceptions.NonBinaryInputException;
+import Exceptions.NonMatchingParenthesisException;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
@@ -18,7 +22,7 @@ public class Runner {
         Evaluator test = new Evaluator();
         Queue<String> input = new ArrayDeque<>(Arrays.asList("(","(","1","+","2",")","*","3","-","4",")","*",".5"));
         
-        test.evaluate(input);
+        //test.evaluate(input);
     }
     
 }

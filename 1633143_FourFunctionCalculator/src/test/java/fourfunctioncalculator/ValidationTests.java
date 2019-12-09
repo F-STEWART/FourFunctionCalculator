@@ -1,5 +1,9 @@
 package fourfunctioncalculator;
 
+import Exceptions.DivideByZeroException;
+import Exceptions.InvalidStringException;
+import Exceptions.NonBinaryInputException;
+import Exceptions.NonMatchingParenthesisException;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -34,17 +38,22 @@ public class ValidationTests {
     @Parameters(name = "{index} plan{0}={1}")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-            {new ArrayDeque<>(Arrays.asList("(","(","1","+","2",")","*","3","-","4","","*","5")), 25},
-            {new ArrayDeque<>(Arrays.asList("5","5","5","-","6","*","2","/","(","9","-","6",")")), 21},
-            {new ArrayDeque<>(Arrays.asList("5","P","5","-","6","*","2","/","(","9","-","6",")")), 21},
-            {new ArrayDeque<>(Arrays.asList("2","*","(","3","+","3","+","(","3","+","4",")")), 26},
-            {new ArrayDeque<>(Arrays.asList("5","*","/","-","6","*","2","*","4","+","1","-","7")), -24},
-            {new ArrayDeque<>(Arrays.asList("2","*","(","9","+","-8",")","*","-","6","-","3","/","2")), 10.5},
-            {new ArrayDeque<>(Arrays.asList("*","3","*","62","-","105","-","4","*","4","+","1")), 66},
+            // Invalid Strings
+            {new ArrayDeque<>(Arrays.asList("(","(","1","+","2",")","*","F","-","4","","*","5")), 25},
+            {new ArrayDeque<>(Arrays.asList("5","!","5","-","6","*","2","/","(","9","-","6",")")), 21},
+            {new ArrayDeque<>(Arrays.asList("2","*","(","3","+","3","#","(","3","+","4",")")), 26},
+            //Non matching parenthesis
+            {new ArrayDeque<>(Arrays.asList("(","*","/","-","6","*","2","*","4","+","1","-","7")), -24},
+            {new ArrayDeque<>(Arrays.asList("2","(","(","9","+","-8",")","*","-","6","3","3","/","2")), 10.5},
+            {new ArrayDeque<>(Arrays.asList("*","3","*","62","-","105","-","4","*","4","+",")")), 66},
+            // Non Binary Expressions
             {new ArrayDeque<>(Arrays.asList("2","-","-","-","7","+","(","4","+","5","+","-6",")")), -6},
-            {new ArrayDeque<>(Arrays.asList("3","+","3","3","7","*","1","/","(","5","-","6",")")), -1},
-            {new ArrayDeque<>(Arrays.asList("4","/","2", "+","(","6","*","2","+","8","*",")",")")), 62},
-            {new ArrayDeque<>(Arrays.asList("5","*","-", "-","(","2","*","4","-","9","-","6",")")), 12}
+            {new ArrayDeque<>(Arrays.asList("4","2","2", "+","(","6","*","2","+","8","*",")",")")), 62},
+            {new ArrayDeque<>(Arrays.asList("5","*","-", "-","(","2","*","4","-","9","-","6",")")), 12},
+            // 
+            {new ArrayDeque<>(Arrays.asList("5","*","/","0","+","-6", "/","2","*","4","+","1","-","7")), -24},
+            {new ArrayDeque<>(Arrays.asList("2","*","(","9","+","-8",")","*","-","6","3","3","/","0")), 10.5},
+            {new ArrayDeque<>(Arrays.asList("3","/", "0","*","62","-","105","-","4","*","4","+","1")), 66}
         });
     }
     
@@ -71,7 +80,7 @@ public class ValidationTests {
     }
     
     /**
-     *  A test that ensures the accuracy of the evaluator
+     *  A test that ensures the accuracy of the validator
      */
     @Test(expected = IllegalArgumentException.class)
     public void testExpressions() {
