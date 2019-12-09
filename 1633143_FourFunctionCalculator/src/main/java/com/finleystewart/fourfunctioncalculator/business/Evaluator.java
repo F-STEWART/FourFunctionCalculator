@@ -40,6 +40,8 @@ public class Evaluator {
                 output.offer("*");
             } else if(last.equals(")") && validator.isDouble(input.peek())) {
                 output.offer("*");
+            } else if(last.equals(")") && input.peek().equals("(")) {
+                output.offer("*");
             }
             last = input.poll();
             output.offer(last);
