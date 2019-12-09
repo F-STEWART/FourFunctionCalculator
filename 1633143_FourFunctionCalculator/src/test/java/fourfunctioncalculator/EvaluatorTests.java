@@ -1,5 +1,9 @@
 package fourfunctioncalculator;
 
+import Exceptions.DivideByZeroException;
+import Exceptions.InvalidStringException;
+import Exceptions.NonBinaryInputException;
+import Exceptions.NonMatchingParenthesisException;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -43,7 +47,10 @@ public class EvaluatorTests {
             {new ArrayDeque<>(Arrays.asList("2","-","4","-","7","+","(","4","+","5","+","-6",")")), -6},
             {new ArrayDeque<>(Arrays.asList("3","+","3","+","7","*","1","/","(","5","-","6",")")), -1},
             {new ArrayDeque<>(Arrays.asList("4","/","2", "+","(","6","*","2","+","8","*","6",")")), 62},
-            {new ArrayDeque<>(Arrays.asList("5","*","1", "-","(","2","*","4","-","9","-","6",")")), 12}
+            {new ArrayDeque<>(Arrays.asList("5","*","1", "-","(","2","*","4","-","9","-","6",")")), 12},
+            {new ArrayDeque<>(Arrays.asList("5","+","1","-","9","/","2","*","(","2","+","2",")")), -12},
+            {new ArrayDeque<>(Arrays.asList("1","/","1", "+","(","7","*","78","+","-40","*","6",")")), 307},
+            {new ArrayDeque<>(Arrays.asList("5","/","1", "/","2","+","(","4","-","9","-","6",")")), -8.5}
         });
     }
     
@@ -73,7 +80,7 @@ public class EvaluatorTests {
      *  A test that ensures the accuracy of the evaluator
      */
     @Test
-    public void testExpressions() {
+    public void testExpressions() throws InvalidStringException, NonMatchingParenthesisException, DivideByZeroException, NonBinaryInputException {
         assertEquals(expected, evaluator.evaluate(queue), 0.001);
     }
 }

@@ -1,5 +1,9 @@
 package com.finleystewart.fourfunctioncalculator.business;
 
+import Exceptions.DivideByZeroException;
+import Exceptions.InvalidStringException;
+import Exceptions.NonBinaryInputException;
+import Exceptions.NonMatchingParenthesisException;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
@@ -133,7 +137,7 @@ public class Evaluator {
      * @param inFixInput
      * @return 
      */
-    public double evaluate(Queue<String> userInput) {
+    public double evaluate(Queue<String> userInput) throws InvalidStringException, NonMatchingParenthesisException, DivideByZeroException, NonBinaryInputException {
         Queue<String> inFixInput = prepQueue(userInput);
         validator.Validate(inFixInput);
         Queue<String> input = toPostFix(inFixInput);
