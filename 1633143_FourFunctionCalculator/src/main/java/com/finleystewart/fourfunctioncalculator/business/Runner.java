@@ -18,7 +18,7 @@ public class Runner {
         Evaluator test = new Evaluator();
         Queue<String> input = new ArrayDeque<>(Arrays.asList("(","(","1","+","2",")","*","3","-","4",")","*",".5"));
         
-        test.evaluateInFix(input);
+        test.evaluate(input);
     }
     
 }

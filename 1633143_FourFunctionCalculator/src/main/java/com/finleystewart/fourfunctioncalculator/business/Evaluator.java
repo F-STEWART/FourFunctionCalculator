@@ -19,6 +19,37 @@ public class Evaluator {
     private Validator validator = new Validator();
     private Deque<String> stack = new ArrayDeque<>();
     
+    /**
+     *  A method that preps a queue to make sure implicit multiplication can be done
+     * 
+     * @param input
+     * @return 
+     */
+    private Queue<String> prepQueue(Queue<String> input) {
+        
+        Queue<String> output = new ArrayDeque<>();
+        String last = "";
+        
+        while (!input.isEmpty()) {
+            // I split this into two if statements to make it more readable. It seemed like too much on one line.
+            if(input.peek().equals("(") && validator.isDouble(last)) {
+                output.offer("*");
+            } else if(last.equals(")") && validator.isDouble(input.peek())) {
+                output.offer("*");
+            }
+            last = input.poll();
+            output.offer(last);
+        }
+        printQueue(output);
+        return output;
+    }
+    
+    /**
+     * A private method that converts infix expressions to postFix
+     * 
+     * @param input
+     * @return Queue<String>
+     */
     private Queue<String> toPostFix(Queue<String> input) {
         
         stack.clear();
@@ -64,6 +95,12 @@ public class Evaluator {
         return postFixQueue;
     }
     
+    /**
+     * A private method that evaluates a postFix expression
+     * 
+     * @param input
+     * @return 
+     */
     private double evaluatePostFix(Queue<String> input) {
         
         stack.clear();
@@ -90,12 +127,27 @@ public class Evaluator {
         return Double.parseDouble(stack.pop());
     }
     
-    public double evaluateInFix(Queue<String> inFixInput) {
+    /**
+     * A public method that takes a infix expression as an input, converts it to postFix and evaluates it
+     * 
+     * @param inFixInput
+     * @return 
+     */
+    public double evaluate(Queue<String> userInput) {
+        Queue<String> inFixInput = prepQueue(userInput);
         validator.Validate(inFixInput);
         Queue<String> input = toPostFix(inFixInput);
         return evaluatePostFix(input);
     }
     
+    /**
+     *  A private helper method that evaluates a single expression
+     * 
+     * @param x
+     * @param op
+     * @param y
+     * @return 
+     */
     private double solve(String x, String op, String y) {
         LOG.info("Operation: " + x + " " + op + " " + y);
         switch(op) {
@@ -112,6 +164,13 @@ public class Evaluator {
         }
     }
     
+    /**
+     *  A private helper method that compares the priorities of two operators
+     * 
+     * @param x
+     * @param y
+     * @return 
+     */
     private int compareOperators(String x, String y) {
         LOG.info("Compare " + x + " to " + y);
         if( isHighPriority(x) && isLowPriority(y) ) {
@@ -125,18 +184,35 @@ public class Evaluator {
         }
     }
     
+    /**
+     *  A private helper method that checks if an operator has a high priority
+     * 
+     * @param operator
+     * @return 
+     */
     private boolean isHighPriority(String operator) {
         return operator.equals("*") || operator.equals("/");
     }
     
+    /**
+     *  A private helper method that checks if an operator has a low priority
+     * 
+     * @param operator
+     * @return 
+     */
     private boolean isLowPriority(String operator) {
         return operator.equals("+") || operator.equals("-");
     }
     
+    /**
+     *  A method I used for debugging. It simply prints the contents of a queue
+     * 
+     * @param queue 
+     */
     private void printQueue(Queue<String> queue) {
         Iterator i = queue.iterator();
         while(i.hasNext()) {
-            LOG.info(i.next().toString());
+            LOG.debug(i.next().toString());
         }
     }
     

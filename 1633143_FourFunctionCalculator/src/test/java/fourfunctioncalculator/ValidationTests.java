@@ -75,6 +75,6 @@ public class ValidationTests {
      */
     @Test(expected = IllegalArgumentException.class)
     public void testExpressions() {
-        assertEquals(expected, evaluator.evaluateInFix(queue), 0.001);
+        assertEquals(expected, evaluator.evaluate(queue), 0.001);
     }
 }
