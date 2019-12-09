@@ -136,18 +136,22 @@ public class Evaluator {
     /**
      * A public method that takes a infix expression as an input, converts it to postFix and evaluates it
      * 
-     * @param inFixInput
-     * @return 
+     * @param userInput
+     * @return
+     * @throws InvalidStringException
+     * @throws NonMatchingParenthesisException
+     * @throws DivideByZeroException
+     * @throws NonBinaryInputException 
      */
-    public double evaluate(Queue<String> userInput) throws InvalidStringException, NonMatchingParenthesisException, DivideByZeroException, NonBinaryInputException {
+    public String evaluate(Queue<String> userInput) throws InvalidStringException, NonMatchingParenthesisException, DivideByZeroException, NonBinaryInputException {
         Queue<String> inFixInput = prepQueue(userInput);
         validator.Validate(inFixInput);
         Queue<String> input = toPostFix(inFixInput);
-        return evaluatePostFix(input);
+        return String.valueOf(evaluatePostFix(input));
     }
     
     /**
-     *  A private helper method that evaluates a single expression
+     * A private helper method that evaluates a single expression
      * 
      * @param x
      * @param op
