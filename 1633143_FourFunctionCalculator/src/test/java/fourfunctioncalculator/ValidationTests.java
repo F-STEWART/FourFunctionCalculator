@@ -44,7 +44,7 @@ public class ValidationTests {
             {new ArrayDeque<>(Arrays.asList("2","-","-","-","7","+","(","4","+","5","+","-6",")"))},
             {new ArrayDeque<>(Arrays.asList("4","2","2", "+","(","6","*","2","+","8","*",")",")"))},
             {new ArrayDeque<>(Arrays.asList("5","*","-", "-","(","2","*","4","-","9","-","6",")"))},
-            // 
+            // Division by zero
             {new ArrayDeque<>(Arrays.asList("5","*","/","0","+","-6", "/","2","*","4","+","1","-","7"))},
             {new ArrayDeque<>(Arrays.asList("2","*","(","9","+","-8",")","*","-","6","3","3","/","0"))},
             {new ArrayDeque<>(Arrays.asList("3","/", "0","*","62","-","105","-","4","*","4","+","1"))}
